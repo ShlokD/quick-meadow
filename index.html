@@ -8,6 +8,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Montserrat:wght@600&display=swap"
     rel="stylesheet">
   <title>Design Studio</title>
@@ -15,101 +16,105 @@
 
 <body class="flex flex-col items-center justify-center">
   <div id="app" class="flex flex-col my-8 mx-2 w-full h-full">
-    <header class="flex items-center justify-around w-full h-auto">
+    <header class="flex items-center justify-around w-full h-auto fixed top-0 bg-white mb-8 text-xl z-10">
       <a class="bg-gray-500 text-white py-2 px-8" href="/">
         Home
       </a>
       <div class="flex w-9/12 justify-around items-center">
-        <a href="#" class="p-4">
-          Section 1
+        <a href="#services" class="p-4">
+          Services
         </a>
-        <a href="#">
-          Section 2
+        <a href="#work">
+          Recent Work
         </a>
-        <a href="#">
-          Section 3
+        <a href="#packages">
+          Design Packages
         </a>
-        <a href="#">
-          Section 4
+        <a href="#benefits">
+          Why Choose Us?
         </a>
-        <a href="#">
-          Section 5
+        <a href="#testimonials">
+          Our Clients
         </a>
-        <a href="#">
-          Section 6
+        <a href="#contact">
+          Contact
         </a>
       </div>
     </header>
     <main class="my-4 p-2">
-      <section class="flex items-center justify-center mx-2 py-16" title="pov">
-        <div class="w-5/12 flex flex-col items-start">
-          <p class="py-6 my-6  text-3xl">Consequatur Consectetur</p>
-          <h1 class="text-bold text-5xl break-words">Sed magnam reprehenderit aut quae exercitationem</h1>
-          <p class="py-6 my-6  text-2xl">Asperiores ut corporis praesentium</p>
-          <button class="text-2xl self-center bg-black text-white p-6">Vel numquam</button>
+      <section id="home" class="flex items-center justify-center mx-2 py-16" title="pov">
+        <div class="w-5/12 flex flex-col items-start mx-2 ">
+          <p class="py-6 my-6 text-center self-center text-2xl">namaskaram</p>
+          <h1 class="text-bold text-5xl break-words">Quick Meadow Architecture & Interior Design Studio</h1>
+          <p class="py-6 my-6  text-2xl">a team of experienced interior designers who are passionate about creating
+            beautiful, functional spaces that reflect our
+            clients' unique style and needs</p>
+          <a href="#work" class="text-2xl self-center bg-black text-white p-6 hover:scale-110 duration-150">Know
+            More</a>
         </div>
-        <div class="w-7/12 bg-gray-500" style="height:400px"></div>
+        <div id="featured-image" class="w-7/12"></div>
       </section>
-      <section class="flex items-center justify-around mx-2 my-8 w-full py-16" title="stats">
-        <div class="text-center">
+      <section id="stats" class="flex items-center justify-around mx-2 my-8 w-full py-16" title="stats">
+        <div class="text-center hover:scale-110 duration-150">
           <p class="text-5xl p-2s">10</p>
           <hr class="border-black border-2" />
-          <p class="text-5xl p-2">soluta</p>
+          <p class="text-2xl p-2">years of experience</p>
         </div>
-        <div class="text-center">
+        <div class="text-center hover:scale-110 duration-150">
           <p class="text-5xl p-2">20</p>
           <hr class="border-black border-2" />
-          <p class="text-5xl p-2">nostrum</p>
+          <p class="text-2xl p-2">designers</p>
         </div>
-        <div class="text-center">
+        <div class="text-center hover:scale-110 duration-150">
           <p class="text-5xl p-2">>300</p>
           <hr class="border-black border-2" />
-          <p class="text-5xl p-2">fugit</p>
+          <p class="text-2xl p-2">clients served</p>
         </div>
-        <div class="text-center">
+        <div class="text-center hover:scale-110 duration-150">
           <p class="text-5xl p-2">7</p>
           <hr class="border-black border-2" />
-          <p class="text-5xl p-2">voluptas</p>
+          <p class="text-2xl p-2">cities</p>
         </div>
       </section>
-      <section class="flex flex-col mx-2 my-8 w-full py-16" title="features">
-        <p class="text-2xl mx-4 py-12">distinctio quis</p>
-        <h2 class="text-4xl mx-4 text-bold ">Non quod adipisci sed omnis nemo quo atque rerum</h2>
+      <section id="services" class="flex flex-col mx-2 my-8 w-full py-16" title="features">
+        <p class="text-2xl mx-4 py-12">our services</p>
+        <h2 class="text-4xl mx-4 text-bold ">we offer a wide range of services</h2>
         <div class="flex my-8">
           <div class="w-7/12">
             <div class="flex text-center">
-              <div class="w-4/12 bg-gray-100 p-12 break-words mx-4 text-xl">
-                nemo voluptatem ut fugiat sunt
+              <div class="w-4/12 bg-gray-100 p-12 break-words mx-4 text-xl hover:scale-110 duration-150">
+                space planning and color consultations
               </div>
-              <div class="w-4/12 bg-black text-white p-12 break-words mx-4">
-                voluptates qui nostrum natus internos aut
+              <div class="w-4/12 bg-black text-white p-12 break-words mx-4 text-xl hover:scale-110 duration-150">
+                hardscaping and softscaping
               </div>
-              <div class="w-4/12 bg-gray-100 p-12 break-words mx-4">
-                Ad placeat culpa est placeat aliquam
+              <div class="w-4/12 bg-gray-100 p-12 break-words mx-4 text-xl hover:scale-110 duration-150">
+                window and lighting Treatments
               </div>
             </div>
-            <h3 class="text-4xl mx-4 py-10">Eum cupiditate suscipit sed</h2>
-              <p class="text-lg w-8/12 mx-4 py-2">Qui dolorum voluptate ad alias quae qui mollitia
-                reiciendis ut quos soluta nam necessitatibus architecto et tempora
-                quis. Ea nobis odit qui facilis adipisci ad architecto omnis.</p>
-              <button class="mx-4 my-3 p-6 text-xl text-white bg-black">nesciunt explicabo</button>
+            <h3 class="text-4xl mx-4 py-10">a design plan tailored to your needs</h2>
+              <p class="text-lg w-8/12 mx-4 py-2">we also offer a variety of packages to fit your budget and needs.
+                Whether you are looking for a complete renovation or
+                just a few minor updates, we can help you create a space that you love.</p>
+              <a href="#contact"
+                class="mx-4 my-6 inline-block p-6 text-xl text-white bg-black hover:scale-110 duration-150">Contact
+                Us</a>
           </div>
-          <div class="w-5/12 bg-gray-500" style="height: 600px"></div>
+          <div class="w-5/12" id="featured-image-2"></div>
         </div>
       </section>
-      <section class="flex flex-col mx-2 my-8 w-full py-16" title="carousel-1">
-        <h2 class="text-4xl p-6">Eos quia quod est quia</h2>
+      <section id="work" class="flex flex-col mx-2 my-8 w-full py-16" title="carousel-1">
+        <h2 class="text-4xl p-6">recent work</h2>
         <div class="flex my-4 mx-4 items-center">
           <div style="height:400px" class="bg-gray-600 w-4/12 mx-2"></div>
           <div style="height:400px" class="bg-gray-600 w-4/12 mx-2"></div>
           <div style="height:400px" class="bg-gray-600 w-4/12 mx-2"></div>
           <button class="text-6xl text-bold w-2/12 mx-2">&rarr;</button>
         </div>
-        <button class="mx-5 my-4 p-6 text-xl text-white bg-black w-2/12">Dolorem Sunt</button>
       </section>
-      <section class="flex flex-col mx-2 my-8 w-11/12 py-16 justify-center" title="carousel-2">
-        <p class="text-2xl px-6">Officia</p>
-        <h2 class="text-4xl p-6">Quis pariatur sed deserunt</h2>
+      <section id="packages" class="flex flex-col mx-2 my-8 w-11/12 py-16 justify-center" title="carousel-2">
+        <p class="text-2xl px-6">design packages</p>
+        <h2 class="text-4xl p-6">we offer multi-room solutions at a discounted price</h2>
         <div class="flex justify-center items-center m-4 h-auto w-full">
           <div class="w-1/2 mx-2 flex flex-col" style="height:900px">
             <div class="bg-gray-500 my-2 h-1/2"></div>
@@ -125,57 +130,70 @@
         </div>
       </section>
 
-      <section class="flex flex-col mx-2 my-8 w-11/12 py-16 justify-center" title="sliders">
-        <p class="text-2xl px-6">Mollitia</p>
-        <h2 class="text-4xl p-6">possimus doloribus sit voluptatem</h2>
+      <section id="benefits" class="flex flex-col mx-2 my-8 w-11/12 py-16 justify-center" title="benefits">
+        <p class="text-2xl px-6">why choose Quick Meadow?</p>
+        <h2 class="text-4xl p-6">here are some of the benefits of working with us</h2>
         <div class="flex items-center m-4 h-auto w-full">
-          <div class="w-2/12 bg-gray-500 ml-2" style="height:500px"></div>
-          <div class="w-2/12 bg-gray-500 mx-4" style="height:500px"></div>
-          <div class="w-2/12 bg-gray-500 mx-4" style="height:500px"></div>
-          <div class="w-2/12 bg-gray-500 mx-4" style="height:500px"></div>
-          <div class="w-2/12 bg-gray-500 mx-4" style="height:500px"></div>
+          <button class="w-4/12 ml-2 text-3xl text-white" id="benefits-a">
+            <p class="bg-black opacity-90 p-4 mx-2">create a space that is both beautiful and functional</p>
+          </button>
+          <button class="w-2/12 ml-2 text-3xl text-white" id="benefits-b">
+            <p class="bg-black opacity-0 p-4 mx-2">source the best products, contractors and vendors</p>
+          </button>
+          <button class="w-2/12 ml-2 text-3xl text-white" id="benefits-c">
+            <p class="bg-black opacity-0 p-4 mx-2">achieve your personal vision for your space</p>
+          </button>
+          <button class="w-2/12 ml-2 text-3xl text-white" id="benefits-d">
+            <p class="bg-black opacity-0  p-4 mx-2">update your space without breaking the bank</p>
+          </button>
+          <button class="w-2/12 ml-2 text-3xl text-white" id="benefits-e">
+            <p class="bg-black opacity-0 p-4 mx-2">relax and enjoy the process by leaving everything to us</p>
+          </button>
         </div>
-
-        <button class="m-4 p-6 text-xl text-white bg-black w-2/12">aliquam saepe</button>
-
+        <p class="text-2xl w-8/12 mx-4 py-2">working with a professional interior designer can be a great way to create
+          a
+          beautiful, functional, and stylish space
+          that you love</p>
       </section>
-      <section class="flex flex-col mx-2 my-8 w-11/12 py-16 justify-center" title="testimonials">
-        <h2 class="text-4xl p-6">consequatur sed voluptatem aperiam</h2>
+      <section id="testimonials" class="flex flex-col mx-2 my-8 w-11/12 py-16 justify-center" title="testimonials">
+        <h2 class="text-4xl p-6">our happy clients</h2>
         <div class="flex items-center m-4 h-auto w-full">
           <div class="w-6/12 mx-2 flex items-center">
-            <div class="bg-gray-400 w-8/12" style="height: 300px"></div>
+            <img src="/testimonial2.png" class="w-8/12" style="height: 300px"></img>
             <div class="flex flex-col ml-4">
-            <p class="text-xl text-center">Longinus</p>
-            <p class="my-4 text-center">Aut enim cupiditate et officiis velit non doloremque optio est odit libero sit
-              veniam ullam.
-            </p>
-          </div>
-          </div>
-          <div class="w-6/12 mx-2 flex items-center">
-            <div class="bg-gray-400 w-8/12" style="height: 300px"></div>
-            <div class="flex flex-col ml-4">
-              <p class="text-xl text-center">Hypatia</p>
-              <p class="my-4 text-center">Ab ipsa ullam sit tenetur quia non eligendi dolores est molestiae voluptatem qui fugit voluptas aut maiores mollitia a
-              aliquam distinctio
+              <p class="text-xl text-center">Longinus</p>
+              <p class="my-4 text-center">i was so happy with the work that Quick Meadow did on my home. they took the
+                time to understand
+                my needs and created a space that is both beautiful and functional. i would highly recommend them to
+                anyone looking for
+                an interior designer.
               </p>
             </div>
-        </div>
+          </div>
+          <div class="w-6/12 mx-2 flex items-center">
+            <img src="/testimonial1.png" class="w-8/12" style="height: 300px"></img>
+            <div class="flex flex-col ml-4">
+              <p class="text-xl text-center">Hypatia</p>
+              <p class="my-4 text-center">we had a very specific vision for our office, but we didn't know how to make
+                it happen. Quick Meadow helped us bring our vision to life, and we're so happy with the results. we
+                would definitely use them again.</p>
+            </div>
+          </div>
       </section>
     </main>
-    <footer class="bg-gray-500 p-4 text-white">
-        <p class="text-xl p-6">Mollitia</p>
-        <h2 class="text-4xl text-bold p-6">Possimus doloribus sit voluptatem</h2>
-        <div class="flex items-center justify-center w-full my-6">
-          <div class="w-4/12">
-            <p class="p-4 text-xl">+1234567890</p>
-            <p class="p-4 text-xl">something@email.com</p>
-          </div>
-          <div class="w-4/12">
-            <p class="p-4 text-xl">Jr. Interior Designer</p>
-            <p class="p-4 text-xl">Jr. Interior Designer</p>
-          </div>
-          <button class="bg-black p-6 text-xl">Contact Us</button>
+    <footer id="contact" class="bg-gray-500 p-4 text-white">
+      <p class="text-xl p-6">reach out</p>
+      <h2 class="text-4xl text-bold p-6">we are available to discuss your needs</h2>
+      <div class="flex items-center justify-center w-full my-6">
+        <div class="w-4/12">
+          <p class="p-4 text-xl">+1234567890</p>
+          <p class="p-4 text-xl">something@email.com</p>
         </div>
+        <div class="w-4/12">
+          <p class="p-4 text-xl">lead interior designer</p>
+          <p class="p-4 text-xl">sr. interior designer</p>
+        </div>
+      </div>
     </footer>
   </div>
   <script type="module" src="/src/main.ts"></script>

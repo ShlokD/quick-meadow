@@ -1,4 +1,5 @@
-html,body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
@@ -8,7 +9,63 @@ body {
   font-family: "Montserrat", sans-serif
 }
 
-h1,h2,h3,h4,h5,h6, button {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+a {
   font-family: "Cormorant", serif;
 }
 
+#featured-image {
+  height: 500px;
+  background-image: url('https://images.unsplash.com/photo-1615874694520-474822394e73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=500&q=100');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -20rem;
+}
+
+#featured-image-2 {
+  height: 600px;
+  background-image: url('https://images.unsplash.com/photo-1600607686527-6fb886090705?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=600&q=100');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -9rem;
+}
+
+#benefits button {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  transition: width 0.5s ease-in-out;
+}
+
+#benefits button p {
+  pointer-events: none;
+
+  transition: opacity 0.9s ease-in-out;
+}
+
+#benefits-a {
+  background-image: url('https://images.unsplash.com/photo-1583329550487-0fa300a4cd1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=500&q=100');
+}
+
+#benefits-b {
+  background-image: url('https://images.unsplash.com/photo-1540932239986-30128078f3c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=500&q=100');
+}
+
+#benefits-c {
+  background-image: url('https://images.unsplash.com/photo-1540544321-a0e92b02d975?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=500&q=100')
+}
+
+#benefits-d {
+  background-image: url('https://images.unsplash.com/photo-1551298213-de5c034f5d50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=500&q=100')
+}
+
+#benefits-e {
+  background-image: url('https://images.unsplash.com/photo-1625585598750-3535fe40efb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=500&q=100')
+}

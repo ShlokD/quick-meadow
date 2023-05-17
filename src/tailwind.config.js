@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   purge: ["./src/**/*.{html,js}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
