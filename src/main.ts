@@ -1,4 +1,3 @@
-import "./style.css";
 
 type Maybe<T> = T | null;
 
