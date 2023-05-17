@@ -50,6 +50,12 @@ a {
   transition: opacity 0.9s ease-in-out;
 }
 
+#recent-work div {
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
 #benefits-a {
   background-image: url('https://images.unsplash.com/photo-1583329550487-0fa300a4cd1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=500&q=100');
 }
@@ -68,4 +74,43 @@ a {
 
 #benefits-e {
   background-image: url('https://images.unsplash.com/photo-1625585598750-3535fe40efb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=500&q=100')
+}
+
+
+#recent-work-a {
+  background-image: url('https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=400&q=80');
+}
+
+#recent-work-b {
+  background-image: url('https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=400&q=80');
+}
+
+#recent-work-c {
+  background-image: url('https://images.unsplash.com/photo-1616046146424-dcf7164a098f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=400&q=80');
+}
+
+.package {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#package-a {
+  height: 450px;
+  background-image: url('https://images.unsplash.com/photo-1512916194211-3f2b7f5f7de3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=450&q=80')
+}
+
+#package-b {
+  height: 450px;
+  background-image: url('https://images.unsplash.com/photo-1616486232086-81d47190669a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=450&q=80');
+}
+
+#package-c {
+  height: 600px;
+  background-image: url('https://images.unsplash.com/photo-1628745423035-0211f4d95596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=600&q=80')
+}
+
+#package-d {
+  height: 300px;
+  background-position-y: -300px;
+  background-image: url('https://images.unsplash.com/photo-1516605809031-970bb1174e22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&q=80')
 }
